@@ -9,7 +9,7 @@ license that can be found in the LICENSE file.
 }
 
 /*@polyfill :host > * */
-::content > * {
+content /content/ * {
   position: absolute;
   top: 0;
   right: 0;
@@ -20,7 +20,7 @@ license that can be found in the LICENSE file.
 }
 
 /*@polyfill :host > *.polymer-selected */
-::content > *.polymer-selected {
+content /content/ .polymer-selected {
   visibility: visible;
   z-index: auto;
 }
